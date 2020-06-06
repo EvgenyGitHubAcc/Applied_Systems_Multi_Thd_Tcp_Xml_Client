@@ -13,7 +13,7 @@ int main(void)
 {
     std::list<std::string> commList;
 
-    if(!readXmlFile("ClientXmlFile.xml", commList))
+    if(!readXmlFile("../ClientXmlFile.xml", commList))
     {
         exit(0);
     }
